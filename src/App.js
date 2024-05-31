@@ -14,7 +14,7 @@ function App() {
 
   const [messages, setMessages] = useState([
     {
-      message: "Hello, I am ChatGPT!",
+      message: "Hello, I am a senior software engineer. Ask me anything about software engineering.",
       sender: "ChatGPT",
       direction: "incoming"
     }
@@ -51,7 +51,7 @@ function App() {
     // define how ChatGPT talks
     const systemMessage = {
       role: "system",
-      content: "Explain like I am an experienced software engineer."
+      content: "Explain like you are a senior software engineer. Very experienced in software devlopment."
     }
     const apiRequestBody = {
       "model": "gpt-3.5-turbo",
